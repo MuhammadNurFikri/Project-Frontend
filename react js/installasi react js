@@ -1,0 +1,5 @@
+1. npm i -g create-react-app
+2. cek di : create-react-app --version
+3. buat projek : create-react-app nama_projek
+4. menjalankan react : npm start
+5. mengecek tampilan di : http://localhost:3000 
