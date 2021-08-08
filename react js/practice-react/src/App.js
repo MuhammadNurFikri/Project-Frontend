@@ -1,24 +1,17 @@
 // import logo from './logo.svg';
-// import './App.css';
-import React, { Component } from 'react';
+import Navbar from './Navbar';
+import Home from './Home';
+//old versi 
+//import React, { Component } from 'react';
 
-class Header extends Component{
-  render(){
-    return(
-    <div>
-      <h2>Makanan Indonesia</h2>
-       </div>
-       );
-  }
-}
-class App extends Component{
-  render(){
-    return(
-    <div>
-    <Header />
-     <h1 className="App">Hello Word!</h1>
-     </div>
-    );
-}
+function App(){
+  return(
+    <div className="App">
+      <Navbar />
+     
+      <div className="content"></div>
+      <Home name="Beranda"/>
+    </div>
+  );
 }
 export default App;
