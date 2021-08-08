@@ -1,0 +1,27 @@
+app.js > index.js > index.html
+------------------------------------
+syntax render di app.js
+class Nama_kelas extends Component {
+render() {
+return {
+	isi kelas	
+);
+}
+}
+
+export default App;
+------------------------------------
+
+syntax render di app.js
+import App from './App';
+
+ReactDOM.render(<React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+-------------------------------------
+ditampilkan sesuai id pd file app.js
+
+syntax untuk menampilkan pd file index.html
+<div id="root"></div>
